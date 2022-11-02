@@ -4,7 +4,6 @@ export const state = () => ({
 
 export const mutations = {
   addCartItem(state, cartItem){
-    // console.log(`test`);
     const newCartItem = {
       ...cartItem, 
       imageUrl: `${cartItem.imageUrl}?random=${Math.random()}`
